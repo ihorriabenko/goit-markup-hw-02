@@ -1,0 +1,157 @@
+:root {
+  --maincolor: #212121;
+  --connection: #757575;
+  --hover: #2196f3;
+  --buttonsback: #f5f4fa;
+  --secondcolor: #757575;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Logo */
+
+.logo-part {
+  color: #2196f3;
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+.logo {
+  color: #212121;
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+/* colors */
+
+body {
+  background-color: #ffffff;
+  color: var(--maincolor);
+  font-family: Roboto, sans-serif;
+}
+
+footer {
+  background-color: #2f303a;
+}
+
+/* 1st part header */
+
+.major-link {
+  color: inherit;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+}
+
+.major-link:hover,
+.major-link:focus {
+  color: var(--hover);
+}
+
+/* 2nd part header */
+
+.major-connection {
+  color: var(--connection);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+}
+
+.major-connection:hover,
+.major-connection:focus {
+  color: var(--hover);
+}
+
+/* buttons */
+
+.buttons-button {
+  background-color: var(--buttonsback);
+  cursor: pointer;
+  color: inherit;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+}
+
+.buttons-button:hover,
+.buttons-button:focus {
+  color: #ffffff;
+  background-color: var(--hover);
+}
+
+/* list */
+
+.list-p {
+  color: var(--secondcolor);
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+}
+
+.list-h {
+  color: var(--maincolor);
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+/* footer */
+
+.logo-partt {
+  color: #2196f3;
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+.logoo {
+  color: #212121;
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+.major-address {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+.major-connectionn {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+.major-address:hover,
+.major-address:focus {
+  color: var(--hover);
+}
+
+.major-connectionn:hover,
+.major-connectionn:focus {
+  color: var(--hover);
+}
