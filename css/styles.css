@@ -82,7 +82,7 @@ footer {
   background-color: var(--buttonsback);
   cursor: pointer;
   color: inherit;
-  font-family: Roboto;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
@@ -97,14 +97,14 @@ footer {
 
 /* list */
 
-.list-p {
+.list-text {
   color: var(--secondcolor);
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
 }
 
-.list-h {
+.list-header {
   color: var(--maincolor);
   font-weight: bold;
   font-size: 18px;
@@ -124,7 +124,7 @@ footer {
 }
 
 .logoo {
-  color: #212121;
+  color: #ffffff;
   font-family: Raleway, sans-serif;
   font-weight: bold;
   font-size: 26px;
@@ -137,6 +137,7 @@ footer {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
+  font-style: normal;
 }
 
 .major-connectionn {
@@ -144,6 +145,7 @@ footer {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
+  font-style: normal;
 }
 
 .major-address:hover,
