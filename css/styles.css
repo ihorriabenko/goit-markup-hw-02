@@ -50,11 +50,11 @@ footer {
 
 /* section 1 */
 
-.none {
+.hero {
   background-color: #2f303a;
 }
 
-.none-header {
+.hero-header {
   color: #ffffff;
   font-weight: 900;
   font-size: 44px;
@@ -64,7 +64,7 @@ footer {
   text-transform: uppercase;
 }
 
-.none-service {
+.hero-service {
   color: #ffffff;
   background-color: #2196f3;
   font-weight: bold;
