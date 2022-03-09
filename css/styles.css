@@ -46,9 +46,94 @@ footer {
   background-color: #2f303a;
 }
 
+/* index */
+
+/* section 1 */
+
+.none {
+  background-color: #2f303a;
+}
+
+.none-header {
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.none-service {
+  color: #ffffff;
+  background-color: #2196f3;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+/* what are we doing */
+
+.lists-header {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.lists-text {
+  color: var(--secondcolor);
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+
+.wawd-header {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* our team */
+
+.team-main-header {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team-profession {
+  color: var(--secondcolor);
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* portfolio */
+
 /* 1st part header */
 
-.major-link {
+.major-nav .link {
   color: inherit;
   font-weight: 500;
   font-size: 14px;
@@ -56,8 +141,12 @@ footer {
   letter-spacing: 0.02em;
 }
 
-.major-link:hover,
-.major-link:focus {
+.major-nav .link:hover,
+.major-nav .link:focus {
+  color: var(--hover);
+}
+
+.major-nav .link.current {
   color: var(--hover);
 }
 
