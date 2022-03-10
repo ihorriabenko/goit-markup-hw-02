@@ -66,6 +66,7 @@ footer {
 
 .hero-service {
   color: #ffffff;
+  font-family: inherit;
   background-color: #2196f3;
   font-weight: bold;
   font-size: 16px;
@@ -81,11 +82,13 @@ footer {
 /* what are we doing */
 
 .lists-header {
+  color: var(--maincolor);
+  font-family: Roboto;
   font-weight: bold;
-  font-size: 36px;
-  line-height: 42px;
-  text-align: center;
+  font-size: 14px;
+  line-height: 16px;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .lists-text {
